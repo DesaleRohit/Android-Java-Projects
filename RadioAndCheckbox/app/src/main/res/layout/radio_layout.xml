@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Branch"
+        android:layout_marginTop="30dp"/>
+
+    <RadioGroup
+        android:id="@+id/rbg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/RB1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BCA"/>
+
+        <RadioButton
+            android:id="@+id/RB2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BSC"/>
+
+        <RadioButton
+            android:id="@+id/RB3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BBA"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Stream"
+        android:layout_marginTop="30dp"/>
+
+    <CheckBox
+        android:id="@+id/chbJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:onClick="checkBtn"/>
+
+    <CheckBox
+        android:id="@+id/chbReact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ReactJS"
+        android:onClick="checkBtn"/>
+
+    <CheckBox
+        android:id="@+id/chbPython"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        android:onClick="checkBtn"/>
+
+</LinearLayout>
