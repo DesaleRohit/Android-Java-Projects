@@ -26,6 +26,10 @@ public class Login_Activity extends AppCompatActivity {
                 && txtPassword.getText().toString().equalsIgnoreCase("1234"))
         {
             Intent i = new Intent(Login_Activity.this,Menu_Activity.class);
+            i.putExtra("Name", "Rohit");
+            i.putExtra("Mobile", "9988774455");
+
+
             startActivity(i);
         } else {
             Toast.makeText(Login_Activity.this, "Invalide Username or Password", Toast.LENGTH_SHORT).show();
