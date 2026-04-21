@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vertical ScrollView Demo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This content is inside a vertical ScrollView. Keep scrolling to see more widgets." />
+
+        <!-- 20 dummy TextViews to force scrolling -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. First item"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Second item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Third item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Fourth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Fifth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Sixth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Seventh item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Eighth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Ninth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Tenth item" />
+
+        <!-- HorizontalScrollView Demo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Horizontal ScrollView (swipe left/right)"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <!-- 15 colored buttons to demonstrate horizontal scrolling -->
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:text="Button 1"
+                    android:backgroundTint="@android:color/holo_blue_dark"
+                    android:layout_marginEnd="8dp" />
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:text="Button 2"
+                    android:backgroundTint="@android:color/holo_green_dark"
+                    android:layout_marginEnd="8dp" />
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:text="Button 3"
+                    android:backgroundTint="@android:color/holo_orange_dark"
+                    android:layout_marginEnd="8dp" />
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:text="Button 4"
+                    android:backgroundTint="@android:color/holo_purple"
+                    android:layout_marginEnd="8dp" />
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:text="Button 5"
+                    android:backgroundTint="@android:color/holo_red_dark"
+                    android:layout_marginEnd="8dp" />
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:text="Button 6"
+                    android:backgroundTint="@android:color/holo_blue_bright"
+                    android:layout_marginEnd="8dp" />
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:text="Button 7"
+                    android:backgroundTint="@android:color/holo_green_light"
+                    android:layout_marginEnd="8dp" />
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:text="Button 8"
+                    android:backgroundTint="@android:color/holo_orange_light"
+                    android:layout_marginEnd="8dp" />
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:text="Button 9"
+                    android:backgroundTint="@android:color/holo_blue_light" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- More content after horizontal scroll to show vertical scrolling continues -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. Eleventh item"
+            android:layout_marginTop="24dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12. Twelfth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13. Thirteenth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14. Fourteenth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15. Fifteenth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16. Sixteenth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="17. Seventeenth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18. Eighteenth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19. Nineteenth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20. Twentieth item - End of scroll" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="17. Seventeenth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18. Eighteenth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19. Nineteenth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20. Twentieth item - End of scroll" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="17. Seventeenth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18. Eighteenth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19. Nineteenth item" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20. Twentieth item - End of scroll" />
+
+    </LinearLayout>
+</ScrollView>
